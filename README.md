@@ -20,9 +20,9 @@ A list of lines with the format:
 (fork #N) Lineage : ProcessOutput
 ```
 indicating 
--which fork created the current process (0 means it's the original parent)
--its lineage, i.e., its parent, its grandparent, etc.
--its output, i.e., what it would normally print out to the console
+* which fork created the current process (0 means it's the original parent)
+* its lineage, i.e., its parent, its grandparent, etc.
+* its output, i.e., what it would normally print out to the console
 
 ## Constants
 Right before the main() function, 2 constants are defined:
